@@ -1,28 +1,30 @@
-# Used Cars Valuation Model 🚗💰
+# Used Cars Valuation Model
 
-Supervised Machine Learning regression pipeline to evaluate used car market prices based on mileage, engine specs, brand, and manufacture year.
+A supervised regression model to predict used car market valuations based on vehicle specifications and historical sales data.
 
-## Key Features ✨
-- Well-structured code and clean modular implementation.
-- Built with modern standard tools: **Python, Pandas, Scikit-Learn, Jupyter Notebook**.
-- Clean data preprocessing, EDA, and model evaluation metrics.
+## Contents
+- **Code**: `ML_Used_Cars_Valuation_Model (code).ipynb`
+- **Dataset / Resources**: `used_cars_powerful.csv`
+- **Documentation**: `README.md`
 
-## Project Structure 📂
-```
-ML_Used_Cars_Valuation_Model/
-├── .gitignore
-├── README.md
-└── ... (project source files)
+## Requirements
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
 
-## Setup & Installation 🚀
+## Usage
+1. Clone the repository:
 ```bash
 git clone https://github.com/Yuossef-Ashraf/ML_Used_Cars_Valuation_Model.git
 cd ML_Used_Cars_Valuation_Model
 ```
+2. Open and run the project code:
+```bash
+jupyter notebook "ML_Used_Cars_Valuation_Model (code).ipynb"
+```
 
-## Author 👤
-Created and maintained by **Yuossef Ashraf**.
+## Author
+Yuossef Ashraf
 
-## License 📜
-Distributed under the MIT License.
+## License
+MIT License
